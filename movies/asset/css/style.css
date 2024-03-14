@@ -43,4 +43,14 @@
 
 .us{
     color: blue;
+    padding: 5px 0;
+    font-weight: 700;
+}
+
+.txt {
+    padding-bottom: 10px;
+}
+
+.lord {
+    font-weight: bold;
 }
