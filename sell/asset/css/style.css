@@ -7,7 +7,6 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: rgb(255, 255, 255);
 }
 
 #sell {
@@ -17,7 +16,8 @@
 .main {
     display: flex;
     justify-content: center;
-    border: 5px solid black;
+    /* border: 5px solid black; */
+    background-color: whitesmoke;
 }
 
 
@@ -48,6 +48,7 @@ h2 {
     font-family: "Poppins";
     color: orange;
     font-size: small;
+    padding-bottom: 10px;
 }
 
 .price {
@@ -61,10 +62,12 @@ h2 {
 
 .longtext {
     font-family: "Poppins";
+    padding: 10px 0px;
 }
 
 .boxes {
     display: flex;
+    padding-bottom: 10px;
 }
 
 .num {
@@ -82,13 +85,56 @@ h2 {
     border: none;
 }
 
-.spanavailable {
-    font-family:"Poppins" ;
-}
+
 
 .span {
     font-family:"Poppins";
-    color: peru
+    color: green;
+    padding-bottom: 10px;
+}
+
+.available {
+    font-family:"Poppins";
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.share {
+    font-family:"Poppins";
+    font-weight: 500;
+}
+
+.shareicon {
+    display: flex;
+    gap: 15px;
+}
+
+.fa-brands.fa-facebook-f {
+    border: 2px solid black;
+    padding: 3px;
+    border: none;
+    background: white;
+}
+
+.fa-brands.fa-twitter {
+    border: 2px solid black;
+    padding: 3px;
+    border: none;
+    background: white;
+}
+
+.fa-brands.fa-pinterest{
+    border: 2px solid black;
+    padding: 3px;
+    border: none;
+    background: white;
+}
+
+.fa-brands.fa-google-plus-g {
+    border: 2px solid black;
+    padding: 3px;
+    border: none;
+    background: white;
 }
 
 .leftside .image {
@@ -121,5 +167,12 @@ h2 {
     justify-content: start;
 }
 
+.rightside {
+    padding-left: 20px;
+}
+
+.primitive {
+    padding-bottom: 10px;
+}
 
 
